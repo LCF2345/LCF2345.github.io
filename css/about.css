@@ -1,0 +1,24 @@
+/*
+ Student Name: Valentin Belii
+ File Name: about.css
+ Date: 12/04/2023
+*/
+
+#appliances, #choosing_tea, #prepare {
+    margin: 0 2%;
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 1032px), print {
+
+    #appliances, #choosing_tea, #prepare {
+        width: 29%;
+        float: left;
+        margin: 0 2%;
+    }
+
+    #best_practices {
+        clear: left;
+    }
+
+}

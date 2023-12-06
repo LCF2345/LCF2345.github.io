@@ -1,0 +1,19 @@
+/*
+ Student Name: Valentin Belii
+ File Name: team.css
+ Date: 12/04/2023
+*/
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 1032px), print {
+
+    .frame {
+        opacity: 0.9;
+    }
+
+    .frame:hover {
+        opacity: 1;
+        box-shadow: 8px 8px 10px #808080;
+        transform: translateY(10px);
+    }
+}
