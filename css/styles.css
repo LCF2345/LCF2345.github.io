@@ -177,7 +177,8 @@ footer p {
 
 footer p a {
 	color: #fff;
-	text-decoration: none;
+	text-decoration: underline;
+
 }
 
 /* Media Query for Tablet Viewport */

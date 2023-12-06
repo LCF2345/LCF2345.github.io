@@ -1,0 +1,16 @@
+/*
+ Student Name: Valentin Belii
+ File Name: styles.css
+ Date: 12/04/2023
+*/
+
+ol li {
+    margin-bottom: 20px;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 630px), print {
+    ol li {
+        font-size: 19px;
+    }
+}
